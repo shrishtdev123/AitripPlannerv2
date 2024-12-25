@@ -1,0 +1,69 @@
+{
+    "travelPlan": {
+      "location": "Noida",
+      "totalDays": 2,
+      "budget": "1000",
+      "travellers": 1,
+      "hotels": [
+        {
+          "HotelName": "Hotel 1",
+          "HotelAddress": "Address 1, Noida",
+          "Prices": "1000",
+          "HotelImageURL": "https://via.placeholder.com/300?text=Hotel1",
+          "geoCoordinate": {
+            "lat": 28.5355,
+            "long": 77.3910
+          },
+          "rating": 4,
+          "description": "Description 1"
+        },
+        {
+          "HotelName": "Hotel 2",
+          "HotelAddress": "Address 2, Noida",
+          "Prices": "1200",
+          "HotelImageURL": "https://via.placeholder.com/300?text=Hotel+2",
+          "geoCoordinate": {
+            "lat": 28.5455,
+            "long": 77.3910
+          },
+          "rating": 4.5,
+          "description": "Description 2"
+        }
+      ],
+      "itinerary": [
+        {
+          "day": 1,
+          "plan": [
+            {
+              "placeName": "Botanical Garden",
+              "placeDetails": "A beautiful garden",
+              "placeImageURL": "https://via.placeholder.com/300?text=Botanical+Garden",
+              "geoCoordinates": {
+                "lat": 28.5555,
+                "long": 77.3910
+              },
+              "ticketPricing": "Free",
+              "timeTravel": "1 hour"
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "plan": [
+            {
+              "placeName": "Worlds of Wonder",
+              "placeDetails": "Amusement park",
+              "placeImageURL": "https://via.placeholder.com/300?text=Worlds+of+Wonder",
+              "geoCoordinates": {
+                "lat": 28.6555,
+                "long": 77.3910
+              },
+              "ticketPricing": "500",
+              "timeTravel": "2 hours"
+            }
+          ]
+        }
+      ]
+    }
+  }
+  
